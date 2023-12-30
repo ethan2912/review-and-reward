@@ -8,6 +8,7 @@
   background: linear-gradient(-9.57deg, #19009e 9.79%, #701cdc 71.55%, #1c97dc);
   width: 1440px;
   height: 2320px;
+  padding-top: 10px;
 }
 .ellipse-div,
 .leader-board-inner,
@@ -510,6 +511,7 @@
   align-items: center;
   justify-content: center;
   width: 778px;
+  z-index: 10;
 }
 .tabs-child,
 .tabs-item {
@@ -582,15 +584,17 @@
   font-weight: 600;
 }
 .div15 {
+  position: absolute;
   top: 16px;
-  left: 1015px;
+  left: 1023px;
   font-size: var(--head-h-20-size);
   letter-spacing: -0.8px;
   line-height: 28px;
+  font-weight: 600;
   text-align: right;
   display: flex;
   align-items: center;
-  width: 78px;
+  width: 70px;
   height: 32px;
 }
 .jaipur-rajsthan9,
@@ -693,8 +697,9 @@
   overflow: hidden;
 }
 .div16 {
+  position: absolute;
   top: 16px;
-  left: 1024px;
+  left: 1023px;
   font-size: var(--head-h-20-size);
   letter-spacing: -0.8px;
   line-height: 28px;
@@ -702,7 +707,7 @@
   text-align: right;
   display: flex;
   align-items: center;
-  width: 69px;
+  width: 70px;
   height: 32px;
 }
 .b10,
@@ -772,7 +777,7 @@
 .div19 {
   position: absolute;
   top: 16px;
-  left: 1013px;
+  left: 1023px;
   font-size: var(--head-h-20-size);
   letter-spacing: -0.8px;
   line-height: 28px;
@@ -780,7 +785,7 @@
   text-align: right;
   display: flex;
   align-items: center;
-  width: 80px;
+  width: 70px;
   height: 32px;
 }
 .bg-parent2 {
@@ -1088,13 +1093,13 @@
 }
 .vector-icon1,
 .vector-icon2 {
-  position: absolute;
-  top: 950px;
-  left: 12px;
-  width: 1456px;
-  height: 90px;
-  object-fit: contain;
-  mix-blend-mode: normal;
+  
+  width: 1450px;
+  height: 95px;
+  padding-bottom: -6px;
+  mix-blend-mode:normal;
+  transform: rotateX(180deg);
+  
 }
 .vector-icon2 {
   top: 983px;
@@ -1257,6 +1262,7 @@
   line-height: 32px;
   font-weight: 600;
   text-align: center;
+  z-index: 10;
 }
 .trophy-icon {
   height: 3.8%;
